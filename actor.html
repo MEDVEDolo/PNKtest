@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PNK | >Александр Руднев</title>
+    <link rel="stylesheet" href="css/simplebar.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/actor.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <script src="scripts/sound-player.js" defer></script>
+    <script src="scripts/simplebar.min.js" defer></script>
+    <script src="scripts/swiper-bundle.min.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="header__link">
+            <img src="img/logo-pancakeser_1.png" alt="Логотип pancakeser" class="logo">
+        </a>
+    </header>
+    <main>
+        <div class="container container_main">
+            <section class="actor">
+                <div class="actor__card">
+                    <div class="links">
+                        <ul class="links__list">
+                            <li class="links__item">
+                                <a href="#" class="links__link">
+                                    <img src="img/actor/kinopoisk.png" alt="" class="links__img">
+                                </a>
+                            </li>
+                            <li class="links__item">
+                                <a href="#" class="links__link">
+                                    <img src="img/actor/imdb.png" alt="" class="links__img">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <img src="img/actor-list/actor11.png" alt="Фото Александр Руднев" class="actor__img">
+                    <div class="actor__content">
+                        <h2 class="actor__name">Александр Руднев</h2>
+                        <div class="sound">
+                            <audio src="sound/test.mp3" class="sound__sound"></audio>
+                            <button class="sound__btn-play">
+                                <img src="img/sound-player/play.png" alt="" class="sound__btn-play__img">
+                            </button>
+                            <button class="sound__btn-volume">
+                                <img src="img/sound-player/volume.png" alt="" class="sound__btn-volume__img">
+                            </button>
+                            <span class="sound__time">
+                                <span class="sound__current-time">00:00</span> / <span class="sound__full-time">00:30</span>
+                            </span>
+                            <div class="sound__progress-container">
+                                <!-- <progress value="0" max="100" id="progress" class="sound__progress"></progress> -->
+                                <div class="sound__progress_full">
+                                    <div class="sound__progress_done">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="filter">
+                            <ul class="filter__list" data-simplebar>
+                                <li class="filter__item">
+                                    <span class="filter__role">Актёр</span>
+                                    <span class="filter__count">5</span>
+                                </li>
+                                <li class="filter__item">
+                                    <span class="filter__role">Режиссёр</span>
+                                    <span class="filter__count">2</span>
+                                </li>
+                                <li class="filter__item">
+                                    <span class="filter__role">Переводчик</span>
+                                    <span class="filter__count">3</span>
+                                </li>
+                                <li class="filter__item">
+                                    <span class="filter__role">Звукорежиссёр</span>
+                                    <span class="filter__count">2</span>
+                                </li>
+                                <li class="filter__item">
+                                    <span class="filter__role">Вокалист</span>
+                                    <span class="filter__count">2</span>
+                                </li>
+                                <li class="filter__item">
+                                    <span class="filter__role">Текстовик</span>
+                                    <span class="filter__count">6</span>
+                                </li>
+                                <li class="filter__item">
+                                    <span class="filter__role">Моушн</span>
+                                    <span class="filter__count">4</span>
+                                </li>
+                            </ul>
+                            <div class="slider">
+                                <button class="swiper-button-prev slider__switch slider__switch_prew">
+                                    <img src="img/arrow-prew.png" alt="Кнопка назад" class="slider__img">
+                                </button>
+                                <div class="swiper-mini">
+                                    <ul class="swiper-wrapper">
+                                        <li class="swiper-slide slider__item">
+                                            <img src="img/actor/slide1.png" alt="" class="slider__img">
+                                        </li>
+                                        <li class="swiper-slide slider__item">
+                                            <img src="img/actor/slide1.png" alt="" class="slider__img">
+                                        </li>
+                                        <li class="swiper-slide slider__item">
+                                            <img src="img/actor/slide1.png" alt="" class="slider__img">
+                                        </li>
+                                        <li class="swiper-slide slider__item">
+                                            <img src="img/actor/slide1.png" alt="" class="slider__img">
+                                        </li>
+                                        <li class="swiper-slide slider__item">
+                                            <img src="img/actor/slide1.png" alt="" class="slider__img">
+                                        </li>
+                                        <li class="swiper-slide slider__item">
+                                            <img src="img/actor/slide1.png" alt="" class="slider__img">
+                                        </li>
+                                    </ul>
+                                </div>
+                                <button class="swiper-button-next slider__switch slider__switch_next">
+                                    <img src="img/arrow-next.png" alt="Кнопка вперёд" class="slider__img">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="hero-block__btn">
+                        <svg width="32" height="30" viewBox="0 0 32 30" fill="none" xmlns="http://www.w3.org/2000/svg" >
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M8 29.4285V22.8199H2.28571C1.67951 22.8199 1.09813 22.5794 0.669471 22.1515C0.240816 21.7235 0 21.1431 0 20.5379V2.28199C0 1.67677 0.240816 1.09633 0.669471 0.668378C1.09813 0.240423 1.67951 0 2.28571 0H29.7143C30.3205 0 30.9019 0.240423 31.3305 0.668378C31.7592 1.09633 32 1.67677 32 2.28199V20.5379C32 21.1431 31.7592 21.7235 31.3305 22.1515C30.9019 22.5794 30.3205 22.8199 29.7143 22.8199H16L8.976 29.8324C8.89608 29.9124 8.79417 29.9669 8.68319 29.989C8.57221 30.0111 8.45715 29.9998 8.35261 29.9565C8.24807 29.9133 8.15875 29.84 8.09598 29.746C8.0332 29.652 7.9998 29.5415 8 29.4285ZM6.85714 14.8329C6.85714 14.5303 6.97755 14.2401 7.19188 14.0261C7.4062 13.8121 7.6969 13.6919 8 13.6919H24C24.3031 13.6919 24.5938 13.8121 24.8081 14.0261C25.0225 14.2401 25.1429 14.5303 25.1429 14.8329C25.1429 15.1355 25.0225 15.4257 24.8081 15.6397C24.5938 15.8537 24.3031 15.9739 24 15.9739H8C7.6969 15.9739 7.4062 15.8537 7.19188 15.6397C6.97755 15.4257 6.85714 15.1355 6.85714 14.8329ZM8 6.84596C7.6969 6.84596 7.4062 6.96617 7.19188 7.18014C6.97755 7.39412 6.85714 7.68434 6.85714 7.98695C6.85714 8.28956 6.97755 8.57978 7.19188 8.79375C7.4062 9.00773 7.6969 9.12794 8 9.12794H24C24.3031 9.12794 24.5938 9.00773 24.8081 8.79375C25.0225 8.57978 25.1429 8.28956 25.1429 7.98695C25.1429 7.68434 25.0225 7.39412 24.8081 7.18014C24.5938 6.96617 24.3031 6.84596 24 6.84596H8Z"/>
+                        </svg>  
+                        Связаться с нами
+                    </button>
+                </div>
+            </section>
+            <section class="jobs">
+                <ul class="jobs__list">
+                    <li class="jobs__item">
+                        <img src="img/actor/job.png" alt="" class="jobs__img">
+                    </li>
+                    <li class="jobs__item">
+                        <img src="img/actor/job.png" alt="" class="jobs__img">
+                    </li>
+                    <li class="jobs__item jobs__item_active">
+                        <img src="img/actor/job.png" alt="" class="jobs__img">
+                    </li>
+                    <li class="jobs__item">
+                        <img src="img/actor/job.png" alt="" class="jobs__img">
+                    </li>
+                    <li class="jobs__item">
+                        <img src="img/actor/job.png" alt="" class="jobs__img">
+                    </li>
+                    <li class="jobs__item">
+                        <img src="img/actor/job.png" alt="" class="jobs__img">
+                    </li>
+                    <li class="jobs__item">
+                        <img src="img/actor/job.png" alt="" class="jobs__img">
+                    </li>
+                </ul>
+            </section>
+        </div>
+    </main>
+</body>
+</html>
